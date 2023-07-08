@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gym Fitness</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Gym Fitness</h1>
+        <p>Get Fit. Stay Fit.</p>
+        <!-- <a href="#classes" class="cta-button">View Classes</a> -->
+    </header>
+    <section id="classes">
+        <h2>Our Classes</h2>
+        <div class="class-card">
+            <img src="https://i.gifer.com/BCml.gif" alt="Class 1">
+            <h3>Class 1</h3>
+            <p>GOOD MORNING - THE MORNING SHIFT STARTS FROM 5AM TO 10AM.</p>
+        </div>
+        <div class="class-card">
+            <img src="https://i.gifer.com/7CIX.gif" alt="Class 2">
+            <h3>Class 2</h3>
+            <p>GOOD AFTERNOON - THE AFTERNOON SHIFT STARTS FROM 12PM TO 5PM.</p>
+        </div>
+        <div class="class-card">
+            <img src="https://i.gifer.com/dhA.gif" alt="Class 3">
+            <h3>Class 3</h3>
+            <p>GOOD EVENING - THE EVENING SHIFT STARTS FROM 6PM TO 10PM.</p>
+        </div>
+    </section>
+    <section id="trainers">
+        <h2>Our Trainers</h2>
+        <div class="trainer-card">
+            <img src="https://static8.depositphotos.com/1011643/1067/i/600/depositphotos_10678530-stock-photo-male-personal-trainer.jpg"
+                alt="Trainer 1">
+            <h3>Trainer 1</h3>
+            <p>THE TRAINER WILL BE AVAILABLE IN THE MORNING SHIFT. THE TRAINER NAME IS DAVID.</p>
+        </div>
+        <div class="trainer-card">
+            <img src="https://media.istockphoto.com/id/1072395722/photo/fitness-trainer-at-gym.jpg?s=612x612&w=0&k=20&c=3VBLCgbxG3bGNRp9Sc3tN_7G-g_DxXhGk9rhuZo-jkE="
+                alt="Trainer 2">
+            <h3>Trainer 2</h3>
+            <p>THE TRAINER WILL BE AVAILABLE IN THE EVENING SHIFT. THE TRAINER NAME IS THOMAS.</p>
+        </div>
+        <div class="trainer-card">
+            <img src="https://img.freepik.com/premium-photo/smiling-man-practice-room_741371-51.jpg" alt="Trainer 3">
+            <h3>Trainer 3</h3>
+            <p>THE TRAINER WILL BE AVAILABLE IN THE NIGHT SHIFT. THE TRAINER NAME IS ANDREW.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Gym Fitness. All rights reserved.</p>
+    </footer>
+</body>
+<style>
+    /* Reset some default styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Global styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.5;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* Header */
+    header {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 100px 0;
+    }
+
+    header h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    header p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    nav ul {
+        list-style: none;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    /* Classes section */
+    section#classes {
+        background-color: #fff;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    section#classes h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .class-card {
+        margin-bottom: 40px;
+    }
+
+    .class-card img {
+        /* width: 100%; */
+        /* max-height: 200px; */
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .class-card h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    /* Trainers section */
+    section#trainers {
+        background-color: #f4f4f4;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    section#trainers h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .trainer-card {
+        margin-bottom: 40px;
+    }
+
+    .trainer-card img {
+        /* width: 100%;
+        max-height: 200px; */
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .trainer-card h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    /* Contact section */
+    section#contact {
+        background-color: #333;
+        color: #fff;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    section#contact h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    form textarea {
+        height: 120px;
+    }
+
+    form button {
+        background-color: #fff;
+        color: #333;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+</style>
+
+</html>
